@@ -12,3 +12,7 @@ A simple hono backend poc on idempotency using a payment api
 1. Call `/payment` api for 1st time.
 2. Call the same api with same payload again. Insertion into DB should happen once only
 3. call `/all-data` api to verify the same.
+
+## Actual Usecase:
+
+[How Stripe Prevents Double Payment Using Idempotent API?](https://substack.com/inbox/post/144300470)
